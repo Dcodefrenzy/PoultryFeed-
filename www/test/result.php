@@ -420,12 +420,15 @@ if($sgroup == 2 && $tgroup == 2 || $sgroup ==1 && $tgroup ==1 ){
 		}
 	 }
   }
+}else{
+	echo "All ingredent belonges to the same group";
 }
 
 
-
+	//$p stands for the value that have 30%
    echo round($p, 2);
    echo "<br/>";
+   //
    echo round($ct, 2);
   echo '<br/>';
   echo round($mt, 2);
